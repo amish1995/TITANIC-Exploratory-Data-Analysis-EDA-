@@ -20,7 +20,7 @@ This project focuses on performing Exploratory Data Analysis (EDA) on the Titani
   - Significant missingness in `Age` and `Cabin`.
   - A few missing values in `Embarked`.
 
-### 🔧 Handling Missing Data:
+###  Handling Missing Data:
 - **Age**: Imputed using a custom function based on the average age within each `Pclass`.
 - **Cabin**: Dropped due to too many missing values.
 - **Embarked**: Filled with the most common value (mode).
@@ -28,7 +28,7 @@ This project focuses on performing Exploratory Data Analysis (EDA) on the Titani
 
 ---
 
-## 📊 Summary Statistics (`train.describe()`)
+##  Summary Statistics (`train.describe()`)
 
 - **Survived**: ~38% survival rate.
 - **Pclass**: Mean indicates varied passenger class distribution.
@@ -38,7 +38,7 @@ This project focuses on performing Exploratory Data Analysis (EDA) on the Titani
 
 ---
 
-## 🧾 DataFrame Overview (`train.info()`)
+##  DataFrame Overview (`train.info()`)
 
 - 891 entries and 12 columns.
 - Showed non-null counts and data types.
@@ -46,7 +46,7 @@ This project focuses on performing Exploratory Data Analysis (EDA) on the Titani
 
 ---
 
-## 📈 Visualizations and Insights
+##  Visualizations and Insights
 
 1. **Survival Count**:
    - `sns.countplot(x='Survived', data=train)`
